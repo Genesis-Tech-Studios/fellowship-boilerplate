@@ -1,0 +1,46 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String
+  wallet    Wallet?
+  createdAt DateTime @default(now())
+}
+
+model Wallet {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  user      User     @relation(fields: [userId], references: [id])
+  balance   Decimal  @default(0.0) @db.Decimal(18, 4)
+  updatedAt DateTime @updatedAt
+}
+
+model InventoryItem {
+  id          String   @id @default(uuid())
+  name        String
+  price       Decimal  @db.Decimal(18, 4)
+  stock       Int
+  version     Int      @default(0) // Optimistic Concurrency Control (OCC) column
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([name])
+}
+
+model ProcessedEvent {
+  id         String   @id @default(uuid())
+  eventId    String   @unique // Idempotency Key
+  eventType  String
+  payload    Json
+  createdAt  DateTime @default(now())
+
+  @@index([eventId])
+}
