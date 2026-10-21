@@ -8,7 +8,7 @@
 Welcome to the official monorepo boilerplate for the **Genesis Tech Studios 12-Week Fellowship & Production Residency**.
 
 This repository serves all 4 core engineering tracks:
-- 🎨 **Frontend Engineering:** `apps/web` (Next.js 19 App Router, TanStack Query v5, Wagmi/Viem, Tailwind)
+- 🎨 **Frontend Engineering:** `apps/web` (Next.js 19 App Router, TanStack Query v5, Wagmi/Viem, Tailwind CSS)
 - ⚙️ **Backend Engineering:** `apps/api` (Fastify, TypeScript, PostgreSQL, Prisma OCC, Redis, BullMQ)
 - ⛓️ **Web3 & Smart Contracts:** `packages/contracts` (Foundry, Solidity 0.8.20, OpenZeppelin v5, CEI Defense)
 - 🌐 **Full-Stack Systems:** All workspaces coordinated via `packages/schemas` (Shared Zod contracts)
@@ -18,15 +18,19 @@ This repository serves all 4 core engineering tracks:
 ## ⚡ 1-Minute Student Quick Start
 
 ### Step 1: Fork or Use This Template
-1. Click the green **"Use this template"** button (or **"Fork"**) at the top right of this repository.
-2. Create a new repository under **your personal GitHub account** (e.g., `github.com/your-username/fellowship-sprints`).
-3. Set visibility to **Public**.
+1. Open the official repository:  
+   👉 **`https://github.com/Genesis-Tech-Studios/fellowship-boilerplate`**
+2. Click the green **"Use this template"** button (or **"Fork"**) at the top right of the page.
+3. Select your personal GitHub account as the owner and name your repository (e.g. `fellowship-boilerplate` or `fellowship-sprints`).
+4. Set the visibility to **Public**.
 
-### Step 2: Clone Your Personal Copy
+### Step 2: Clone Your Repository
 ```bash
-git clone https://github.com/<YOUR-USERNAME>/fellowship-sprints.git
-cd fellowship-sprints
+# Clone the repository:
+git clone https://github.com/Genesis-Tech-Studios/fellowship-boilerplate.git
+cd fellowship-boilerplate
 ```
+*(Tip: If you created a personal fork or used the template under your personal GitHub profile, you can also clone your own fork directly).*
 
 ### Step 3: Install Dependencies & Spin Up Infrastructure
 ```bash
@@ -121,9 +125,9 @@ pnpm build
 
 ## 📝 How to Submit Weekly Deliverables
 
-To get graded and earn milestone bounties on the **[BuildGenesis Student Cockpit](http://localhost:3000/student/dashboard)**:
+To get graded and earn milestone bounties on the **[Genesis Tech Studios Student Cockpit](http://localhost:3000/student/dashboard)**:
 
-1. **Create a Sprint Branch in your personal repo:**
+1. **Create a Sprint Branch in your repo:**
    ```bash
    git checkout -b sprint/week-01-scaffolding
    ```
@@ -136,8 +140,8 @@ To get graded and earn milestone bounties on the **[BuildGenesis Student Cockpit
    git commit -m "feat(api): implement RFC-7807 problem details error envelopes"
    git push origin sprint/week-01-scaffolding
    ```
-4. **Open a Pull Request** in your personal GitHub repository.
-5. **Paste your PR URL** into the **Deliverable Submission Form** in your **BuildGenesis Student Cockpit**.
+4. **Open a Pull Request** in your GitHub repository.
+5. **Paste your PR URL** into the **Deliverable Submission Form** in your **Genesis Tech Studios Student Cockpit** (`http://localhost:3000/student/dashboard`).
 6. Mentors review your diff against the 4-part rubric (Code Integrity, Resilience, Git Hygiene, Presentation) and disburse bounties!
 
 ---
