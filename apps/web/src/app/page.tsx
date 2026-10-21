@@ -22,15 +22,35 @@ export default function Home() {
             </p>
           </div>
 
-          <a
-            href="https://github.com/Genesis-Tech-Studios/fellowship-boilerplate"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 bg-[#F5C800] hover:bg-amber-400 text-neutral-950 text-xs font-mono font-bold flex items-center gap-1.5 transition-all shrink-0"
-          >
-            <span>GitHub Repository</span>
-            <ExternalLink className="w-3.5 h-3.5" />
-          </a>
+          <div className="flex flex-wrap items-center gap-2 shrink-0">
+            <a
+              href="https://student.buildgenesis.in/student/dashboard"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3.5 py-2 bg-[#F5C800] hover:bg-amber-400 text-neutral-950 text-xs font-mono font-bold flex items-center gap-1.5 transition-all"
+            >
+              <span>Student Cockpit</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+            <a
+              href="https://www.buildgenesis.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3.5 py-2 bg-neutral-800 hover:bg-neutral-700 text-white text-xs font-mono font-bold flex items-center gap-1.5 transition-all border border-neutral-700"
+            >
+              <span>Genesis Tech Studios</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+            <a
+              href="https://github.com/Genesis-Tech-Studios/fellowship-boilerplate"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3.5 py-2 bg-neutral-900 hover:bg-neutral-800 text-neutral-300 text-xs font-mono font-bold flex items-center gap-1.5 transition-all border border-neutral-800"
+            >
+              <span>GitHub Repo</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
         </div>
       </div>
 

@@ -1,11 +1,16 @@
 # 🚀 Genesis Tech Studios // 12-Week Fellowship & Production Residency Boilerplate
 
-[![Genesis Residency](https://img.shields.io/badge/GENESIS-RESIDENCY-F5C800?style=for-the-badge&logoColor=black)](https://github.com/Genesis-Tech-Studios/fellowship-boilerplate)
+[![Genesis Tech Studios](https://img.shields.io/badge/GENESIS-TECH_STUDIOS-F5C800?style=for-the-badge&logoColor=black)](https://www.buildgenesis.in/)
+[![Student Cockpit](https://img.shields.io/badge/STUDENT-COCKPIT-00C49F?style=for-the-badge&logoColor=white)](https://student.buildgenesis.in/student/dashboard)
 [![Turborepo](https://img.shields.io/badge/TURBOREPO-MONOREPO-blue?style=for-the-badge&logo=turborepo)](https://turbo.build/)
 [![TypeScript](https://img.shields.io/badge/TYPESCRIPT-STRICT-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Foundry](https://img.shields.io/badge/FOUNDRY-SOLIDITY-red?style=for-the-badge&logo=solidity)](https://getfoundry.sh/)
 
 Welcome to the official monorepo boilerplate for the **Genesis Tech Studios 12-Week Fellowship & Production Residency**.
+
+- 🌐 **Official Website:** [https://www.buildgenesis.in/](https://www.buildgenesis.in/)
+- 🎓 **Student Cockpit:** [https://student.buildgenesis.in/student/dashboard](https://student.buildgenesis.in/student/dashboard)
+- 📦 **Official Monorepo:** [https://github.com/Genesis-Tech-Studios/fellowship-boilerplate](https://github.com/Genesis-Tech-Studios/fellowship-boilerplate)
 
 This repository serves all 4 core engineering tracks:
 - 🎨 **Frontend Engineering:** `apps/web` (Next.js 19 App Router, TanStack Query v5, Wagmi/Viem, Tailwind CSS)
@@ -147,5 +152,10 @@ To get graded and earn milestone bounties on the **[Genesis Tech Studios Student
 
 ---
 
-## 📜 License
-MIT License. Built with ❤️ by [Genesis Tech Studios](https://genesistechstudios.com).
+## 📜 License & Accreditation
+MIT License. Built with ❤️ by [Genesis Tech Studios](https://www.buildgenesis.in/).
+
+- 🌐 **Company Website**: [https://www.buildgenesis.in/](https://www.buildgenesis.in/)
+- 🎓 **Student Cockpit**: [https://student.buildgenesis.in/student/dashboard](https://student.buildgenesis.in/student/dashboard)
+- 📦 **Official Boilerplate**: [https://github.com/Genesis-Tech-Studios/fellowship-boilerplate](https://github.com/Genesis-Tech-Studios/fellowship-boilerplate)
+- ✉️ **Talent & Academic Directorate**: [talent@buildgenesis.in](mailto:talent@buildgenesis.in)
