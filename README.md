@@ -125,7 +125,7 @@ pnpm build
 
 ## 📝 How to Submit Weekly Deliverables
 
-To get graded and earn milestone bounties on the **[Genesis Tech Studios Student Cockpit](http://localhost:3000/student/dashboard)**:
+To get graded and earn milestone bounties on the **[Genesis Tech Studios Student Cockpit](https://student.buildgenesis.in/student/dashboard)**:
 
 1. **Create a Sprint Branch in your repo:**
    ```bash
@@ -141,7 +141,8 @@ To get graded and earn milestone bounties on the **[Genesis Tech Studios Student
    git push origin sprint/week-01-scaffolding
    ```
 4. **Open a Pull Request** in your GitHub repository.
-5. **Paste your PR URL** into the **Deliverable Submission Form** in your **Genesis Tech Studios Student Cockpit** (`http://localhost:3000/student/dashboard`).
+5. **Paste your PR URL** into the **Deliverable Submission Form** in your **Genesis Tech Studios Student Cockpit**:
+   👉 **[https://student.buildgenesis.in/student/dashboard](https://student.buildgenesis.in/student/dashboard)**
 6. Mentors review your diff against the 4-part rubric (Code Integrity, Resilience, Git Hygiene, Presentation) and disburse bounties!
 
 ---
